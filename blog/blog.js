@@ -1,5 +1,5 @@
 // Blog Management System
-import { mockPosts } from './page.js';
+import { mockPosts, categoryData } from './page.js';
 
 class BlogManager {
     constructor() {
@@ -211,12 +211,6 @@ class BlogManager {
 
     renderCategories() {
         const categoriesGrid = document.getElementById('categories-grid');
-        
-        const categoryData = {
-            programming: { name: 'Lập trình', icon: '💻', color: '#4ecdc4' },
-            technology: { name: 'Công nghệ', icon: '🚀', color: '#ff6b6b' },
-            life: { name: 'Cuộc sống', icon: '🌟', color: '#ffd166' }
-        };
 
         categoriesGrid.innerHTML = '';
 
