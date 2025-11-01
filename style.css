@@ -345,6 +345,65 @@ footer {
     transform: translateY(-5px);
 }
 
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.blog-post-summary {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-post-summary:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post-summary h3 {
+    margin-bottom: 10px;
+}
+
+.blog-post-summary h3 a {
+    text-decoration: none;
+    color: var(--dark);
+    transition: color 0.3s ease;
+}
+
+.blog-post-summary h3 a:hover {
+    color: var(--primary);
+}
+
+.post-meta {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+
+.blog-post-full {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.blog-post-full pre {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 20px 0;
+}
+
+.blog-post-full code {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
@@ -362,4 +421,9 @@ footer {
     .section-title {
         font-size: 1.7rem;
     }
+}
+.zalo-icon img {
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
 }
