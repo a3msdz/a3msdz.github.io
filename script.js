@@ -1,16 +1,20 @@
-// Xử lý form liên hệ
-
 document.querySelectorAll('nav a').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        
         const targetId = this.getAttribute('href');
-        const targetElement = document.querySelector(targetId);
-        
-        window.scrollTo({
-            top: targetElement.offsetTop - 80,
-            behavior: 'smooth'
-        });
+
+        // Check if the link is an internal anchor link (starts with #)
+        if (targetId.startsWith('#')) {
+            e.preventDefault(); // Prevent default only for internal links
+            const targetElement = document.querySelector(targetId);
+            
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop - 80,
+                    behavior: 'smooth'
+                });
+            }
+        }
+        // For external links or links to other HTML pages, let the default behavior happen
     });
 });
 
