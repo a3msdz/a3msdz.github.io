@@ -3,36 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang Cá Nhân Đầy Màu Sắc</title>
+    <title>Đặng Minh Sang</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div id="particles-js"></div>
-        <div class="container">
-            <img src="images/myprofile.jpg" alt="Avatar" class="profile-img floating">
-            <h1>Đặng Minh Sang</h1>
-            <p class="tagline">Tân sinh viên ngành Khoa học máy tính tại UIT.</p>
-        </div>
-    </header>
-    <nav>
-        <div class="container">
-            <ul>
-                <li><a href="#about">Giới thiệu</a></li>
-                <li><a href="#portfolio">Dự án</a></li>
-                <li><a href="#contact">Liên hệ</a></li>
-                <li><a href="blog.html">Blog</a></li>
-            </ul>
-        </div>
-    </nav>
+    <div id="header"></div>
 
     <main class="container">
         <section id="about">
             <h2 class="section-title">Về Tôi</h2>
             <div class="about-content">
+                <div class="about-image">
+                    <img src="images/myprofile.jpg" alt="Ảnh đại diện" class="about-img">
+                </div>
                 <div class="about-text">
-                    <p>Xin chào! Tôi là một sinh viên năm nhất của Trường Đại Học Công Nghệ Thông Tin - VNUHCM</p>
+                    <h3>Chào bạn! Tôi là Đặng Minh Sang.</h3>
+                    <p>Hiện tại, tôi là sinh viên năm nhất, đang theo học ngành Khoa học Máy tính tại Trường Đại học Công nghệ Thông tin - ĐHQG-HCM. Tôi có niềm đam mê với lập trình và luôn mong muốn học hỏi những công nghệ mới để tạo ra các sản phẩm hữu ích.</p>
                     
                     <h3 style="margin-top: 20px;">Kỹ năng của tôi</h3>
                     <div class="skills">
@@ -47,19 +34,24 @@
             <h2 class="section-title">Các thành tích của tôi</h2>
             <div class="portfolio-grid">
                 <div class="portfolio-item">
-                    <a href="https://vi.wikipedia.org/wiki/K%E1%BB%B3_thi_ch%E1%BB%8Dn_h%E1%BB%8Dc_sinh_gi%E1%BB%8Fi_qu%E1%BB%91c_gia_trung_h%E1%BB%8Dc_ph%E1%BB%95_th%C3%B4ng">
-                        <img src="https://cpphinditutorials.com/wp-content/uploads/2023/09/VNOI.jpg" alt="HSGQG" class="portfolio-img">
-                    </a>
+                    <img src="images/Logo-MOET.png" alt="HSGQG" class="portfolio-img">
                     <div class="portfolio-info">
                         <h3>HSGQG Môn Tin học</h3>
                         <p>Giải khuyến khích (9.3 đ)</p>
                     </div>
                 </div>
                 <div class="portfolio-item">
-                    <a href="https://acm-icpc.olp.vn/"><img src="https://icpc.com.ar/wp-content/uploads/2024/07/icpc-logo-1.png" alt="ICPC Provinces in Vietnam" class="portfolio-img"></a>
+                    <img src="images/Logo-ICPC.png" alt="ICPC Provinces in Vietnam" class="portfolio-img">
                     <div class="portfolio-info">
                         <h3>ICPC Provinces in Vietnam</h3>
                         <p>South (5 Problem), Central(6 Problem)</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/Logo-THT.png" alt="THT Khu vực miền Nam" class="portfolio-img">
+                    <div class="portfolio-info">
+                        <h3>Tin học trẻ khu vực miền Nam</h3>
+                        <p>Giải khuyến khích</p>
                     </div>
                 </div>
             </div>
@@ -89,23 +81,15 @@
     </main>
 
     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="social-links">
-                <a href="https://fb.com/DangMinhSangDN" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/_m.sangg/" class="social-icon"><i class="fab fa-instagram"></i></a>
-                <a href="mailto:dannypapq0@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
-                <a href="https://zalo.me/0399139491" class="social-icon zalo-icon">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg" alt="Zalo">
-                </a>
-            </div>
-            <p>© 2025 Đặng Minh Sang. Tất cả các quyền được bảo lưu.</p>
-        </div>
-    </footer>
-
+    <div id="footer"></div>
+    
     <a href="#" class="scroll-to-top">↑</a>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="script.js"></script>
+    <script>
+        loadHTML("header", "/components/header.html");
+        loadHTML("footer", "/components/footer.html");
+    </script>
 </body>
 </html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Đặng Minh Sang</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <div id="header"></div>
+
+    <main class="container">
+        <section id="blog-hero">
+            <div class="blog-hero-content">
+                <h1>Blog & Bài Viết</h1>
+                <p>Chia sẻ kiến thức, kinh nghiệm và những điều thú vị về công nghệ</p>
+                <div class="blog-stats">
+                    <div class="stat">
+                        <span class="stat-number" id="total-posts">0</span>
+                        <span class="stat-label">Bài viết</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" id="total-categories">0</span>
+                        <span class="stat-label">Chuyên mục</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog-filters">
+            <div class="filter-group">
+                <button class="filter-btn active" data-filter="all">Tất cả</button>
+                <button class="filter-btn" data-filter="technology">Công nghệ</button>
+                <button class="filter-btn" data-filter="programming">Lập trình</button>
+                <button class="filter-btn" data-filter="life">Cuộc sống</button>
+            </div>
+            <div class="search-box">
+                <input type="text" id="blog-search" placeholder="Tìm kiếm bài viết...">
+                <i class="fas fa-search"></i>
+            </div>
+        </section>
+
+        <section id="blog-posts">
+            <div class="section-header">
+                <h2 class="section-title">Bài Viết Mới Nhất</h2>
+                <div class="view-controls">
+                    <button class="view-btn active" data-view="grid">
+                        <i class="fas fa-th"></i>
+                    </button>
+                    <button class="view-btn" data-view="list">
+                        <i class="fas fa-list"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="loading-spinner" id="loading-spinner">
+                <div class="spinner"></div>
+                <p>Đang tải bài viết...</p>
+            </div>
+
+            <div class="blog-grid" id="blog-grid">
+                <!-- Blog posts will be dynamically loaded here -->
+            </div>
+
+            <div class="no-posts" id="no-posts" style="display: none;">
+                <i class="fas fa-file-alt"></i>
+                <h3>Chưa có bài viết nào</h3>
+                <p>Hãy quay lại sau nhé!</p>
+            </div>
+
+            <div class="load-more-container">
+                <button class="btn btn-outline" id="load-more">Tải thêm bài viết</button>
+            </div>
+        </section>
+
+        <section id="blog-categories">
+            <h2 class="section-title">Chuyên Mục</h2>
+            <div class="categories-grid" id="categories-grid">
+                <!-- Categories will be dynamically loaded here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+    <a href="#" class="scroll-to-top">↑</a>
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="../script.js"></script>
+    <script type="module" src="blog.js"></script>
+    <script>
+        loadHTML("header", "../components/header.html");
+        loadHTML("footer", "../components/footer.html");
+    </script>
+</body>
+</html>

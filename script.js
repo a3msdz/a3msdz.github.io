@@ -1,5 +1,9 @@
-// --- Generic Functions (for all pages) ---
-
+async function loadHTML(id, file) {
+  const element = document.getElementById(id);
+  const response = await fetch(file);
+  const html = await response.text();
+  element.innerHTML = html;
+}
 // 1. Navigation Link Handler
 document.querySelectorAll('nav a').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
