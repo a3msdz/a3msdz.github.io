@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "level": "Giai đoạn 1: Nền tảng",
+        "title": "Bảng chữ cái & Phát âm IPA",
+        "summary": "Làm quen với các âm cơ bản trong tiếng Anh.",
+        "details": "Nội dung chi tiết bài 1: Học 44 âm trong bảng IPA, cách phân biệt nguyên âm và phụ âm. (Đây là chỗ bạn import nội dung dài sau này)."
+    },
+    {
+        "id": 2,
+        "level": "Giai đoạn 1: Nền tảng",
+        "title": "Từ vựng về Chào hỏi & Giới thiệu",
+        "summary": "Học cách nói Hello và giới thiệu bản thân.",
+        "details": "Nội dung chi tiết bài 2: Các mẫu câu Hello, Hi, How are you? My name is..."
+    },
+    {
+        "id": 3,
+        "level": "Giai đoạn 2: Ngữ pháp cơ bản",
+        "title": "Động từ To Be & Thì hiện tại đơn",
+        "summary": "Cấu trúc câu đơn giản nhất.",
+        "details": "Nội dung chi tiết bài 3: I am, You are, He is. Cấu trúc S + V + O."
+    },
+    {
+        "id": 4,
+        "level": "Giai đoạn 2: Ngữ pháp cơ bản",
+        "title": "Danh từ số ít & số nhiều",
+        "summary": "Quy tắc thêm s/es.",
+        "details": "Nội dung chi tiết bài 4: Apple -> Apples, Box -> Boxes."
+    },
+    {
+        "id": 5,
+        "level": "Giai đoạn 3: Giao tiếp sơ cấp",
+        "title": "Hỏi đường & Chỉ đường",
+        "summary": "Các mẫu câu thực tế khi đi du lịch.",
+        "details": "Nội dung chi tiết bài 5: Where is the station? Turn left, go straight."
+    }
+]

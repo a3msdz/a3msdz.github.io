@@ -1,0 +1,197 @@
+/* --- . Cấu hình giao diện chung --- */
+:root {
+    --primary-color: #4a90e2;
+    --bg-color: #f4f7f6;
+    --card-bg: #ffffff;
+    --text-color: #333;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 40px;
+}
+/* --- 2. Style cho Roadmap (Dòng thời gian) --- */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+/* Đường kẻ dọc nối các điểm */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: #ddd;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -2px;
+    z-index: -1;
+}
+.container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    box-sizing: border-box;
+}
+/* Chia trái phải */
+.left { left: 0; }
+.right { left: 50%; }
+/* Nút tròn trên trục giữa */
+.container::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -10px;
+    background-color: white;
+    border: 4px solid var(--primary-color);
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.right::after {
+    left: -10px;
+}
+/* Thẻ nội dung */
+.content-card {
+    background-color: var(--card-bg);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+    border-left: 5px solid var(--primary-color);
+}
+.content-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+.level-tag {
+    font-size: 0.8rem;
+    background: #e1ecf4;
+    color: #39739d;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+/* --- 3. Style cho Modal (Popup nội dung) --- */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 100; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0,0,0,0.5); 
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    position: relative;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close:hover { color: black; }
+/* Responsive Mobile */
+@media screen and (max-width: 600px) {
+    .timeline::after { left: 31px; }
+    .container { width: 100%; padding-left: 70px; padding-right: 25px; }
+    .container::after { left: 21px; }
+    .left::after, .right::after { left: 21px; }
+    .right { left: 0%; }
+}
+/* --- 4. Thanh tiến độ (Mới) --- */
+.progress-container {
+    position: fixed;
+    top: 0; left: 0; width: 100%;
+    height: 6px;
+    background: #eee;
+    z-index: 1000;
+}
+.progress-bar {
+    height: 100%;
+    background: #2ecc71; /* Màu xanh lá */
+    width: 0%;
+    transition: width 0.5s;
+}
+
+/* --- 5. Style cho bài đã hoàn thành (Mới) --- */
+.content-card.completed {
+    border-left-color: #2ecc71;
+    background-color: #f6fffa;
+}
+
+.content-card.completed h3::after {
+    content: ' ✅'; /* Thêm dấu tích vào tiêu đề */
+    font-size: 0.8em;
+}
+
+/* Nút hoàn thành trong Modal */
+.btn-action {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.btn-complete {
+    background-color: #2ecc71;
+    color: white;
+}
+.btn-incomplete {
+    background-color: #e74c3c;
+    color: white;
+}
+/* --- 6. Thanh công cụ lọc (Filter Bar) --- */
+.filter-bar {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.filter-bar select {
+    padding: 8px 15px;
+    margin: 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    background-color: #fff;
+}
+
+.filter-bar select:focus {
+    border-color: var(--primary-color);
+}
+
+/* Thông báo khi không tìm thấy bài học */
+.no-data {
+    text-align: center;
+    color: #888;
+    font-style: italic;
+    margin-top: 20px;
+}
