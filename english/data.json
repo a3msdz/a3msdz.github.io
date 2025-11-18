@@ -1,37 +1,352 @@
 [
-    {
-        "id": 1,
-        "level": "Giai đoạn 1: Nền tảng",
-        "title": "Bảng chữ cái & Phát âm IPA",
-        "summary": "Làm quen với các âm cơ bản trong tiếng Anh.",
-        "details": "Nội dung chi tiết bài 1: Học 44 âm trong bảng IPA, cách phân biệt nguyên âm và phụ âm. (Đây là chỗ bạn import nội dung dài sau này)."
-    },
-    {
-        "id": 2,
-        "level": "Giai đoạn 1: Nền tảng",
-        "title": "Từ vựng về Chào hỏi & Giới thiệu",
-        "summary": "Học cách nói Hello và giới thiệu bản thân.",
-        "details": "Nội dung chi tiết bài 2: Các mẫu câu Hello, Hi, How are you? My name is..."
-    },
-    {
-        "id": 3,
-        "level": "Giai đoạn 2: Ngữ pháp cơ bản",
-        "title": "Động từ To Be & Thì hiện tại đơn",
-        "summary": "Cấu trúc câu đơn giản nhất.",
-        "details": "Nội dung chi tiết bài 3: I am, You are, He is. Cấu trúc S + V + O."
-    },
-    {
-        "id": 4,
-        "level": "Giai đoạn 2: Ngữ pháp cơ bản",
-        "title": "Danh từ số ít & số nhiều",
-        "summary": "Quy tắc thêm s/es.",
-        "details": "Nội dung chi tiết bài 4: Apple -> Apples, Box -> Boxes."
-    },
-    {
-        "id": 5,
-        "level": "Giai đoạn 3: Giao tiếp sơ cấp",
-        "title": "Hỏi đường & Chỉ đường",
-        "summary": "Các mẫu câu thực tế khi đi du lịch.",
-        "details": "Nội dung chi tiết bài 5: Where is the station? Turn left, go straight."
-    }
+  {
+    "id": 1,
+    "level": "A1",
+    "title": "Bảng chữ cái & Phát âm IPA (Chuyên sâu)",
+    "summary": "Làm chủ hệ thống âm thanh tiếng Anh từ gốc rễ để không bị 'Việt hóa' tiếng Anh.",
+    "details": "<h3>1. Bảng chữ cái (The Alphabet) & Những cái bẫy</h3><p>Tiếng Anh có 26 chữ cái nhưng cách đọc tên chữ cái khác với cách phát âm trong từ.</p><ul><li><b>A</b>: Đọc là /eɪ/ nhưng trong 'cat' là /æ/, trong 'car' là /ɑː/.</li><li><b>Chữ cái câm (Silent letters):</b> Không phải từ nào viết ra cũng đọc! <br><i>Ví dụ:</i> <b>K</b>nee (đầu gối - k câm), <b>H</b>our (giờ - h câm), I<b>s</b>land (hòn đảo - s câm).</li></ul><h3>2. Bảng phiên âm quốc tế IPA (44 âm) - Chi tiết</h3><h4>🅰️ Nguyên âm (Vowels) - Tránh nhầm lẫn</h4><table border='1' style='border-collapse:collapse; width:100%; text-align:center;'><tr><th>Cặp âm dễ nhầm</th><th>Ví dụ 1</th><th>Ví dụ 2</th></tr><tr><td>/i:/ (dài) vs /ɪ/ (ngắn)</td><td>Sheep (cừu)</td><td>Ship (tàu)</td></tr><tr><td>/u:/ (dài) vs /ʊ/ (ngắn)</td><td>Food (thức ăn)</td><td>Foot (chân)</td></tr><tr><td>/æ/ (bẹt) vs /e/ (thường)</td><td>Man (đàn ông)</td><td>Men (nhiều đàn ông)</td></tr></table><h4>🅱️ Phụ âm (Consonants) - Hữu thanh & Vô thanh</h4><p>Đặt tay lên cổ họng để kiểm tra độ rung:</p><ul><li><b>Cặp /p/ (Vô thanh) & /b/ (Hữu thanh):</b><br>Please (bật hơi mạnh) vs. Bat (rung cổ).</li><li><b>Cặp /t/ (Vô thanh) & /d/ (Hữu thanh):</b><br>Time vs. Door.</li><li><b>Cặp /s/ (Vô thanh) & /z/ (Hữu thanh):</b><br>See vs. Zoo.</li></ul><h3>3. Luyện tập lưỡi (Tongue Twisters)</h3><p>Thử đọc nhanh câu sau:</p><blockquote>'She sells seashells by the seashore.' (Cô ấy bán vỏ sò bên bờ biển - Luyện âm /s/ và /ʃ/)</blockquote>"
+  },
+  {
+    "id": 2,
+    "level": "A1",
+    "title": "Chào hỏi & Từ vựng sinh tồn",
+    "summary": "Các mẫu câu giao tiếp bắt buộc phải biết để bắt đầu một cuộc hội thoại.",
+    "details": "<h3>1. Các cấp độ chào hỏi (Greetings)</h3><table border='1' style='border-collapse:collapse; width:100%;'><tr><th style='background:#eee;'>Trang trọng (Formal)</th><th style='background:#eee;'>Thân mật (Informal)</th></tr><tr><td>Good morning/afternoon.</td><td>Hi / Hey / Hey there.</td></tr><tr><td>How do you do? (Lần đầu gặp)</td><td>What's up? / How's it going?</td></tr><tr><td>Nice to meet you.</td><td>Good to see you.</td></tr></table><h3>2. Giới thiệu bản thân (Self-Introduction) - Mẫu câu đầy đủ</h3><ul><li><b>Tên:</b> I'm [Name] / My name is [Name].</li><li><b>Tuổi:</b> I'm [Number] years old. (Không dùng 'I have [Number] years')</li><li><b>Quê quán:</b> I come from Vietnam / I was born in Hanoi but live in HCM City.</li><li><b>Nghề nghiệp:</b> I work as a developer / I am a freshman at university.</li></ul><h3>3. Từ vựng 'Gia đình & Số đếm'</h3><ul><li><b>Family:</b> Parents, Siblings (anh chị em ruột), Husband/Wife, Son/Daughter.</li><li><b>Numbers:</b> Chú ý đuôi <i>-teen</i> (13-19) nhấn âm cuối, và đuôi <i>-ty</i> (20,30...) nhấn âm đầu. <br><i>Ví dụ:</i> 13 (thir-TEEN) vs 30 (THIR-ty).</li></ul><h3>4. Hội thoại mẫu (Dialogue)</h3><p><b>A:</b> Hi, I'm John. New here?<br><b>B:</b> Yes, I'm Sarah. Nice to meet you.<br><b>A:</b> Where are you from, Sarah?<br><b>B:</b> I'm from Canada. And you?</p>"
+  },
+  {
+    "id": 3,
+    "level": "A2",
+    "title": "Ngữ pháp: Hiện tại, Quá khứ & Quy tắc chính tả",
+    "summary": "Nắm vững xương sống của ngữ pháp tiếng Anh và các quy tắc thêm s/ed.",
+    "details": "<h3>1. Thì hiện tại đơn (Present Simple)</h3><p>Dùng cho: Sự thật, Thói quen, Lịch trình tàu xe.</p><ul><li><b>Dấu hiệu nhận biết:</b> always, usually, often, sometimes, never, every day.</li><li><b>Quy tắc thêm s/es:</b><br>- Thêm 'es' nếu động từ tận cùng là: o, s, x, z, ch, sh (<i>Ông Sáu Xuống Xe Chạy SH</i>).<br>- Ví dụ: He <b>watches</b> TV, She <b>goes</b> to school.</li></ul><h3>2. Thì quá khứ đơn (Past Simple)</h3><p>Dùng cho: Hành động đã chấm dứt trong quá khứ, có thời gian cụ thể.</p><ul><li><b>Động từ có quy tắc (V-ed):</b> play → played, watch → watched.</li><li><b>Động từ bất quy tắc (V2) phổ biến:</b><br>- Go → Went<br>- Eat → Ate<br>- Buy → Bought<br>- See → Saw</li></ul><h3>3. Danh từ đếm được & Không đếm được</h3><table border='1' style='width:100%;'><tr><th>Loại</th><th>Đặc điểm</th><th>Ví dụ</th></tr><tr><td>Đếm được (Countable)</td><td>Có số ít/nhiều, dùng a/an/numbers</td><td>A book, two cats, an apple.</td></tr><tr><td>Không đếm được (Uncountable)</td><td>Chỉ có dạng số ít, không dùng a/an</td><td>Water, sugar, money, advice, information.</td></tr></table><p style='background:#fff4e6; padding:10px;'>💡 <b>Lưu ý:</b> Danh từ không đếm được luôn chia động từ số ít. (<i>Water <b>is</b> essential</i>).</p>"
+  },
+  {
+    "id": 4,
+    "level": "A2",
+    "title": "Giao tiếp đời sống: Mua sắm, Ăn uống & Đi đường",
+    "summary": "Tự tin đi du lịch hoặc sống ở nước ngoài với các tình huống thông dụng.",
+    "details": "<h3>1. Tại nhà hàng (At the Restaurant)</h3><ul><li><b>Gọi món:</b> I would like (I'd like) a pizza, please. / Can I have a menu?</li><li><b>Hỏi về món ăn:</b> What is this dish? / Is it spicy?</li><li><b>Thanh toán:</b> Can I get the bill/check? / Do you take credit cards?</li></ul><h3>2. Mua sắm (Shopping)</h3><ul><li><b>Hỏi giá:</b> How much is this? / How much does it cost?</li><li><b>Mặc cả:</b> Is there a discount? / It's too expensive used for me.</li><li><b>Phòng thử đồ:</b> Where is the fitting room?</li></ul><h3>3. Hỏi & Chỉ đường (Asking for Directions)</h3><ul><li><b>Hỏi:</b> Excuse me, how do I get to the station?</li><li><b>Chỉ đường:</b><br>- <b>Go straight on:</b> Đi thẳng.<br>- <b>Turn left/right at the traffic light:</b> Rẽ trái/phải ở đèn giao thông.<br>- <b>Go past the bank:</b> Đi ngang qua ngân hàng.</li></ul><h3>4. Từ vựng Thời tiết (Weather)</h3><p>Sunny (nắng), Rainy (mưa), Windy (gió), Cloudy (nhiều mây), Stormy (bão), Foggy (sương mù).</p>"
+  },
+  {
+    "id": 5,
+    "level": "B1",
+    "title": "Ngữ pháp trung cấp: Hoàn thành & Bị động",
+    "summary": "Nâng cấp câu văn từ đơn giản sang phức tạp và chuyên nghiệp hơn.",
+    "details": "<h3>1. Thì hiện tại hoàn thành (Present Perfect)</h3><p>Sự khác biệt với Quá khứ đơn là <b>kết quả còn liên quan đến hiện tại</b> hoặc <b>không rõ thời gian</b>.</p><ul><li><b>Phân biệt 'Gone' và 'Been':</b><br>- He has <b>gone</b> to Paris (Anh ấy đang ở Paris, chưa về).<br>- He has <b>been</b> to Paris (Anh ấy đã từng đến Paris và giờ đã về).</li><li><b>For vs. Since:</b><br>- <b>For</b> + khoảng thời gian (for 2 years).<br>- <b>Since</b> + mốc thời gian (since 2010).</li></ul><h3>2. Câu bị động (Passive Voice) - Các thì</h3><table border='1' style='width:100%; border-collapse:collapse;'><tr><th>Thì</th><th>Chủ động</th><th>Bị động (Be + V3)</th></tr><tr><td>Hiện tại đơn</td><td>Make</td><td>Is/Am/Are made</td></tr><tr><td>Quá khứ đơn</td><td>Made</td><td>Was/Were made</td></tr><tr><td>Tương lai</td><td>Will make</td><td>Will be made</td></tr><tr><td>Hiện tại hoàn thành</td><td>Has made</td><td>Has been made</td></tr></table><h3>3. Câu điều kiện loại 2 (Giả định không thật)</h3><p>Cấu trúc: If + S + V2/ed (be -> were), S + would/could + V_inf.<br><i>Ví dụ:</i> If I <b>were</b> a bird, I <b>would fly</b> around the world.</p>"
+  },
+  {
+    "id": 6,
+    "level": "B1",
+    "title": "Kỹ năng Viết Email & Thuyết trình ngắn",
+    "summary": "Học cách viết email chuyên nghiệp và nói chuyện có cấu trúc logic.",
+    "details": "<h3>1. Cấu trúc Email (Formal vs Informal)</h3><table border='1' style='width:100%;'><tr><th>Phần</th><th>Formal (Công việc)</th><th>Informal (Bạn bè)</th></tr><tr><td>Mở đầu</td><td>Dear Mr./Ms. [Name],</td><td>Hi [Name],</td></tr><tr><td>Lý do</td><td>I am writing to inquire about...</td><td>Just writing to let you know...</td></tr><tr><td>Kết thúc</td><td>Sincerely / Best regards,</td><td>Best / Cheers,</td></tr></table><h3>2. Từ nối (Linking Words) - Vũ khí cho bài viết</h3><ul><li><b>Thêm ý:</b> Furthermore, Moreover, In addition.</li><li><b>Đối lập:</b> However, Although, On the other hand.</li><li><b>Kết quả:</b> Therefore, As a result, Consequently.</li><li><b>Ví dụ:</b> For instance, Such as.</li></ul><h3>3. Chiến thuật nói (Speaking Strategy)</h3><p>Sử dụng công thức <b>OREO</b> để trả lời câu hỏi:</p><ul><li><b>O - Opinion:</b> Đưa ra ý kiến (I think that...)</li><li><b>R - Reason:</b> Lý do tại sao (Because...)</li><li><b>E - Example:</b> Ví dụ cụ thể (For example...)</li><li><b>O - Opinion:</b> Nhắc lại ý kiến (That's why I believe...)</li></ul>"
+  },
+  {
+    "id": 7,
+    "level": "B2",
+    "title": "Ngữ pháp nâng cao: Đảo ngữ & Mệnh đề quan hệ",
+    "summary": "Sử dụng các cấu trúc ngữ pháp 'ăn điểm' trong các kỳ thi IELTS/TOEFL.",
+    "details": "<h3>1. Mệnh đề quan hệ rút gọn (Reduced Relative Clauses)</h3><ul><li><b>Chủ động (V-ing):</b> The man <i>standing</i> there is my dad. (Thay cho 'who is standing')</li><li><b>Bị động (V3/ed):</b> The book <i>written</i> by Nam Cao is famous. (Thay cho 'which was written')</li></ul><h3>2. Cấu trúc Đảo ngữ (Inversion)</h3><p>Đưa trạng từ phủ định lên đầu câu + Trợ động từ + S + V.</p><ul><li><b>Never:</b> Never <i>have I seen</i> such a mess.</li><li><b>Hardly... when:</b> Hardly <i>had I arrived</i> home when it rained. (Vừa mới... thì...)</li><li><b>Not only... but also:</b> Not only <i>is she</i> beautiful, but she is also smart.</li></ul><h3>3. Động từ khuyết thiếu phỏng đoán (Modals of Deduction)</h3><ul><li><b>Must have + V3:</b> Chắc hẳn đã... (90% chắc chắn). <br><i>Ví dụ:</i> The ground is wet. It <b>must have rained</b> last night.</li><li><b>Can't have + V3:</b> Chắc chắn không thể... <br><i>Ví dụ:</i> He <b>can't have stolen</b> the money; he was with me.</li></ul>"
+  },
+  {
+    "id": 8,
+    "level": "B2",
+    "title": "Tư duy phản biện & Tranh luận (Debate)",
+    "summary": "Cách diễn đạt ý kiến một cách lịch sự, thuyết phục và học thuật.",
+    "details": "<h3>1. Ngôn ngữ 'Hedging' (Nói giảm nói tránh)</h3><p>Trong môi trường học thuật, tránh khẳng định tuyệt đối (100%). Hãy dùng:</p><ul><li>It seems that... / It appears that...</li><li>It is likely/unlikely that...</li><li>Tends to / May / Might / Could.</li><li><i>Ví dụ:</i> Thay vì 'Internet is bad', nói 'Excessive use of the Internet <b>tends to have negative effects</b>.'</li></ul><h3>2. Các cụm từ dùng trong tranh luận (Debate Phrases)</h3><ul><li><b>Đồng ý một phần:</b> I see your point, but... / That's true to some extent, however...</li><li><b>Phản đối lịch sự:</b> I beg to differ. / I'm afraid I can't agree with you on that.</li><li><b>Làm rõ ý:</b> What I mean is... / Let me put it another way...</li></ul><h3>3. Kỹ thuật Paraphrasing (Viết lại câu)</h3><p>Thay đổi từ vựng và cấu trúc nhưng giữ nguyên nghĩa (quan trọng cho IELTS Writing).</p><ul><li><b>Gốc:</b> Being a doctor is difficult.</li><li><b>Paraphrase:</b> Working as a medical practitioner involves numerous challenges.</li></ul>"
+  },
+  {
+    "id": 9,
+    "level": "C1",
+    "title": "Ngữ pháp tinh hoa: Giả định cách & Từ vựng C1",
+    "summary": "Chạm đến sự tinh tế của ngôn ngữ, diễn đạt sắc thái cảm xúc phức tạp.",
+    "details": "<h3>1. Thức giả định (Subjunctive Mood)</h3><p>Dùng sau các động từ như suggest, recommend, insist, demand...</p><ul><li><b>Cấu trúc:</b> S1 + V1 + that + S2 + (should) + V_inf (giữ nguyên mẫu).</li><li><i>Ví dụ:</i> The doctor suggested that he <b>stop</b> smoking. (Lưu ý: 'he stop' không chia 'stops').</li><li><i>Ví dụ:</i> It is essential that she <b>be</b> present.</li></ul><h3>2. Danh từ hóa (Nominalization)</h3><p>Biến động từ/tính từ thành danh từ để câu văn trang trọng hơn (Academic Style).</p><ul><li><b>Văn nói:</b> The government <i>decided</i> to <i>expand</i> the airport.</li><li><b>Văn viết:</b> The government made a <b>decision</b> regarding the <b>expansion</b> of the airport.</li></ul><h3>3. Nâng cấp từ vựng (Vocabulary Booster)</h3><table border='1' style='width:100%; text-align:center;'><tr><th>Từ cơ bản (A2/B1)</th><th>Từ nâng cao (C1)</th></tr><tr><td>Big</td><td>Substantial / Enormous</td></tr><tr><td>Important</td><td>Crucial / Vital / Pivotal</td></tr><tr><td>Bad</td><td>Detrimental / Adverse</td></tr><tr><td>Change</td><td>Transform / Alter</td></tr></table>"
+  },
+  {
+    "id": 10,
+    "level": "C1",
+    "title": "Làm chủ giao tiếp: Thành ngữ & Sắc thái",
+    "summary": "Hiểu những gì người bản xứ 'thực sự' nói, bao gồm cả sự mỉa mai và hài hước.",
+    "details": "<h3>1. Thành ngữ trong công việc (Business Idioms)</h3><ul><li><b>Call it a day:</b> Nghỉ tay, kết thúc ngày làm việc.</li><li><b>Cut corners:</b> Làm ẩu, đi tắt để tiết kiệm tiền/thời gian.</li><li><b>Get the ball rolling:</b> Bắt đầu một dự án.</li><li><b>On the same page:</b> Hiểu ý nhau, đồng thuận.</li></ul><h3>2. Các biện pháp tu từ (Rhetorical Devices)</h3><p>Dùng để tạo ấn tượng mạnh khi thuyết trình:</p><ul><li><b>Điệp ngữ (Anaphora):</b> Lặp lại đầu câu. (<i>'We shall fight on the beaches, we shall fight on the landing grounds...'</i>)</li><li><b>Câu hỏi tu từ (Rhetorical Questions):</b> Hỏi không cần trả lời để nhấn mạnh ý.</li></ul><h3>3. Phân tích giọng văn (Tone & Attitude)</h3><p>Nhận biết tác giả đang: <i>Skeptical</i> (hoài nghi), <i>Optimistic</i> (lạc quan), <i>Cynical</i> (châm biếm tiêu cực) hay <i>Neutral</i> (trung lập).</p>"
+  },
+  {
+    "id": 11,
+    "level": "C2",
+    "title": "Văn hóa & Sự biến đổi của ngôn ngữ",
+    "summary": "Tiếng Anh không chỉ là ngôn ngữ, nó là văn hóa. Phân biệt Anh-Anh, Anh-Mỹ và tiếng lóng.",
+    "details": "<h3>1. Anh-Anh (BrE) vs. Anh-Mỹ (AmE)</h3><table border='1' style='width:100%; text-align:center;'><tr><th>Chủ đề</th><th>Anh-Anh (UK)</th><th>Anh-Mỹ (US)</th></tr><tr><td>Từ vựng</td><td>Flat, Lift, Biscuit, Autumn</td><td>Apartment, Elevator, Cookie, Fall</td></tr><tr><td>Chính tả</td><td>Colour, Centre, Organise</td><td>Color, Center, Organize</td></tr><tr><td>Phát âm</td><td>/t/ rõ ràng, /r/ thường câm cuối từ</td><td>/t/ giữa 2 nguyên âm đọc như /d/, /r/ cong lưỡi</td></tr></table><h3>2. Uyển ngữ (Euphemisms)</h3><p>Cách nói tránh sự thô lỗ hoặc khó chịu:</p><ul><li>Died → <b>Passed away</b> / <b>Kicked the bucket</b> (slang).</li><li>Unemployed → <b>Between jobs</b>.</li><li>Cheap → <b>Economical</b>.</li></ul><h3>3. Tiếng Anh cổ & Văn học (Archaic English)</h3><p>Hiểu các từ trong tác phẩm của Shakespeare hoặc Kinh thánh: <i>Thou/Thee</i> (You), <i>Thy/Thine</i> (Your), <i>Hath</i> (Has).</p>"
+  },
+  {
+    "id": 12,
+    "level": "C2",
+    "title": "Sáng tạo nghệ thuật ngôn từ",
+    "summary": "Vượt qua quy tắc để chơi đùa với ngôn ngữ: Thơ ca, Châm biếm và Hài hước.",
+    "details": "<h3>1. Các phong cách viết (Writing Styles)</h3><ul><li><b>Satire (Châm biếm):</b> Dùng sự hài hước để phê phán thói hư tật xấu xã hội.</li><li><b>Irony (Trớ trêu):</b> Tình huống thực tế trái ngược hoàn toàn với mong đợi.</li><li><b>Allegory (Ngụ ngôn):</b> Câu chuyện mang ý nghĩa ẩn dụ sâu xa (như 'Animal Farm').</li></ul><h3>2. Chơi chữ (Puns)</h3><p>Sử dụng từ đồng âm để gây cười. Đỉnh cao của sự thông thạo ngôn ngữ.<br><i>Ví dụ:</i> 'I'm reading a book on anti-gravity. It's impossible to <b>put down</b>!' (Put down: vừa nghĩa là đặt xuống, vừa nghĩa là không thể ngừng đọc).</p><h3>3. Dịch thuật sáng tạo (Transcreation)</h3><p>Không dịch từng từ (Word-by-word) mà dịch 'cảm xúc' và 'thông điệp'. Đòi hỏi vốn từ vựng khổng lồ và sự nhạy cảm văn hóa sâu sắc.</p><p style='background:#f0fff0; padding:15px; border-left: 5px solid #28a745;'>🌟 <b>Lời khuyên C2:</b> Ở trình độ này, bạn không còn học tiếng Anh nữa, bạn <b>sống</b> bằng tiếng Anh. Hãy thử viết một bài thơ, tranh biện về triết học, hoặc xem phim hài độc thoại (Stand-up comedy) để hiểu hết các tầng ý nghĩa.</p>"
+  },
+  {
+    "id": 13,
+    "level": "B1",
+    "title": "Từ vựng chủ đề Du lịch & Khách sạn",
+    "summary": "Mở rộng vốn từ vựng cho các tình huống du lịch thực tế.",
+    "details": "<h3>1. Từ vựng cơ bản về du lịch</h3><ul><li><b>Đặt phòng:</b> reservation, check-in, check-out, suite, lobby</li><li><b>Phương tiện:</b> boarding pass, luggage, departure, arrival</li><li><b>Tham quan:</b> sightseeing, landmark, tour guide, itinerary</li></ul><h3>2. Cụm từ hữu ích</h3><ul><li>I'd like to make a reservation</li><li>What time is check-out?</li><li>Where is the nearest ATM?</li><li>Can you recommend a good restaurant?</li></ul><h3>3. Tình huống thực tế</h3><p>Luyện tập hội thoại tại sân bay, khách sạn, nhà hàng và điểm tham quan.</p>"
+  },
+  {
+    "id": 14,
+    "level": "B1",
+    "title": "Ngữ pháp: Câu tường thuật (Reported Speech)",
+    "summary": "Học cách tường thuật lại lời nói của người khác một cách chính xác.",
+    "details": "<h3>1. Quy tắc cơ bản</h3><ul><li>Lùi thì: Present Simple → Past Simple</li><li>Thay đổi đại từ: I → he/she, we → they</li><li>Thay đổi trạng từ: now → then, here → there</li></ul><h3>2. Cấu trúc với các động từ tường thuật</h3><ul><li>Say that... / Tell someone that...</li><li>Ask if/whether... / Ask someone to do something</li><li>Advise someone to do something</li></ul><h3>3. Bài tập ứng dụng</h3><p>Chuyển đổi câu trực tiếp sang câu tường thuật và ngược lại.</p>"
+  },
+  {
+    "id": 15,
+    "level": "B1",
+    "title": "Luyện nghe: Hội thoại hàng ngày",
+    "summary": "Phát triển kỹ năng nghe hiểu qua các tình huống giao tiếp thực tế.",
+    "details": "<h3>1. Các chủ đề nghe</h3><ul><li>Hẹn gặp và sắp xếp lịch trình</li><li>Mua sắm và mặc cả</li><li>Kể về kỳ nghỉ và trải nghiệm</li><li>Thảo luận về sở thích</li></ul><h3>2. Kỹ thuật nghe hiệu quả</h3><ul><li>Nghe lấy ý chính</li><li>Xác định thông tin chi tiết</li><li>Đoán nghĩa từ ngữ cảnh</li></ul><h3>3. Bài tập đa dạng</h3><p>Điền vào chỗ trống, trả lời câu hỏi, xác định đúng/sai.</p>"
+  },
+  {
+    "id": 16,
+    "level": "B2",
+    "title": "Từ vựng học thuật chủ đề Môi trường",
+    "summary": "Mở rộng vốn từ về các vấn đề môi trường toàn cầu.",
+    "details": "<h3>1. Từ vựng chuyên sâu</h3><ul><li><b>Vấn đề môi trường:</b> climate change, global warming, pollution</li><li><b>Giải pháp:</b> renewable energy, conservation, sustainability</li><li><b>Hiện tượng:</b> deforestation, extinction, greenhouse effect</li></ul><h3>2. Collocations thông dụng</h3><ul><li>Reduce carbon footprint</li><li>Promote sustainable development</li><li>Combat climate change</li><li>Protect endangered species</li></ul><h3>3. Ứng dụng trong viết luận</h3><p>Học cách sử dụng từ vựng để viết bài luận về bảo vệ môi trường.</p>"
+  },
+  {
+    "id": 17,
+    "level": "B2",
+    "title": "Ngữ pháp: Mệnh đề danh từ",
+    "summary": "Làm chủ các cấu trúc câu phức với mệnh đề danh từ.",
+    "details": "<h3>1. Định nghĩa và chức năng</h3><p>Mệnh đề danh từ đóng vai trò như danh từ trong câu, có thể làm chủ ngữ, tân ngữ.</p><h3>2. Các từ để hỏi trong mệnh đề danh từ</h3><ul><li>What, where, when, why, how</li><li>Whether, if</li><li>That</li></ul><h3>3. Ứng dụng trong văn viết học thuật</h3><p>Sử dụng mệnh đề danh từ để tạo câu phức tạp và trang trọng hơn.</p>"
+  },
+  {
+    "id": 18,
+    "level": "B2",
+    "title": "Kỹ năng viết: Bài luận nghị luận",
+    "summary": "Học cách xây dựng và phát triển bài luận nghị luận chặt chẽ.",
+    "details": "<h3>1. Cấu trúc bài luận cơ bản</h3><ul><li>Mở bài: Giới thiệu vấn đề và quan điểm</li><li>Thân bài: 2-3 luận điểm với dẫn chứng</li><li>Kết bài: Tóm tắt và khẳng định lại quan điểm</li></ul><h3>2. Phát triển luận điểm</h3><ul><li>Cách đưa ra ví dụ cụ thể</li><li>Sử dụng số liệu thống kê</li><li>Trích dẫn ý kiến chuyên gia</li></ul><h3>3. Từ nối và cụm từ chuyển tiếp</h3><p>Học các cụm từ để kết nối ý tưởng mạch lạc.</p>"
+  },
+  {
+    "id": 19,
+    "level": "C1",
+    "title": "Từ vựng chuyên ngành Kinh tế",
+    "summary": "Nắm vững thuật ngữ kinh tế cho mục đích học thuật và công việc.",
+    "details": "<h3>1. Thuật ngữ cốt lõi</h3><ul><li><b>Kinh tế vĩ mô:</b> inflation, GDP, monetary policy</li><li><b>Kinh tế vi mô:</b> supply and demand, market share</li><li><b>Tài chính:</b> investment, stock market, cryptocurrency</li></ul><h3>2. Cụm từ chuyên ngành</h3><ul><li>Economic downturn</li><li>Market fluctuation</li><li>Financial stability</li><li>Investment portfolio</li></ul><h3>3. Ứng dụng thực tế</h3><p>Đọc hiểu báo cáo kinh tế và thảo luận về xu hướng thị trường.</p>"
+  },
+  {
+    "id": 20,
+    "level": "C1",
+    "title": "Ngữ pháp: Câu điều kiện hỗn hợp",
+    "summary": "Thành thạo các dạng câu điều kiện phức tạp kết hợp nhiều mốc thời gian.",
+    "details": "<h3>1. Phân loại câu điều kiện hỗn hợp</h3><ul><li>Loại 2 + Loại 3: If I had studied harder, I would have the job now</li><li>Loại 3 + Loại 2: If you had taken the advice, you wouldn't be in trouble</li></ul><h3>2. Ứng dụng trong văn nói</h3><p>Sử dụng linh hoạt để diễn đạt tình huống giả định phức tạp.</p><h3>3. Bài tập nâng cao</h3><p>Viết lại câu, hoàn thành câu điều kiện với tình huống cho sẵn.</p>"
+  },
+  {
+    "id": 21,
+    "level": "C1",
+    "title": "Luyện nghe: Bài giảng học thuật",
+    "summary": "Phát triển kỹ năng nghe hiểu bài giảng đại học với đa dạng chủ đề.",
+    "details": "<h3>1. Các chủ đề học thuật</h3><ul><li>Tâm lý học và xã hội học</li><li>Khoa học môi trường</li><li>Công nghệ và đổi mới</li><li>Lịch sử và văn hóa</li></ul><h3>2. Kỹ thuật ghi chú hiệu quả</h3><ul><li>Phương pháp Cornell Notes</li><li>Sử dụng từ khóa và biểu tượng</li><li>Tóm tắt ý chính sau khi nghe</li></ul><h3>3. Bài tập đánh giá</h3><p>Trả lời câu hỏi chi tiết, tóm tắt nội dung, phân tích quan điểm.</p>"
+  },
+  {
+    "id": 22,
+    "level": "C1",
+    "title": "Kỹ năng nói: Thuyết trình chuyên nghiệp",
+    "summary": "Nâng cao kỹ năng thuyết trình cho mục đích học thuật và công việc.",
+    "details": "<h3>1. Cấu trúc bài thuyết trình</h3><ul><li>Mở đầu ấn tượng</li><li>Triển khai luận điểm logic</li><li>Kết thúc mạnh mẽ với call-to-action</li></ul><h3>2. Kỹ thuật trình bày</h3><ul><li>Ngôn ngữ cơ thể và eye contact</li><li>Điều chỉnh tốc độ nói và ngắt nghỉ</li><li>Sử dụng visual aids hiệu quả</li></ul><h3>3. Xử lý câu hỏi từ khán giả</h3><p>Chiến lược trả lời câu hỏi hóc búa và phản biện.</p>"
+  },
+  {
+    "id": 23,
+    "level": "C2",
+    "title": "Từ vựng văn học & Hàn lâm",
+    "summary": "Làm chủ từ vựng cấp cao cho việc đọc hiểu văn học và nghiên cứu.",
+    "details": "<h3>1. Từ vựng văn học</h3><ul><li><b>Thuật ngữ văn học:</b> metaphor, symbolism, protagonist</li><li><b>Từ mô tả cảm xúc:</b> melancholy, euphoria, nostalgia</li><li><b>Từ chỉ đặc điểm:</b> ephemeral, quintessential, mundane</li></ul><h3>2. Thành ngữ và cụm từ cố định</h3><ul><li>Food for thought</li><li>Method to one's madness</li><li>Read between the lines</li></ul><h3>3. Ứng dụng trong phân tích văn học</h3><p>Phân tích tác phẩm văn học với vốn từ phong phú và chính xác.</p>"
+  },
+  {
+    "id": 24,
+    "level": "C2",
+    "title": "Ngữ pháp: Cấu trúc đảo ngữ nâng cao",
+    "summary": "Thành thạo các cấu trúc đảo ngữ phức tạp để viết văn trang trọng.",
+    "details": "<h3>1. Đảo ngữ với trạng từ phủ định</h3><ul><li>Never have I seen...</li><li>Rarely does she...</li><li>Under no circumstances should you...</li></ul><h3>2. Đảo ngữ với cụm giới từ</h3><ul><li>On the table was a beautiful vase</li><li>In front of the house stood an old oak tree</li></ul><h3>3. Ứng dụng trong văn viết học thuật</h3><p>Sử dụng đảo ngữ để tạo văn phong trang trọng và nhấn mạnh ý quan trọng.</p>"
+  },
+  {
+    "id": 25,
+    "level": "C2",
+    "title": "Đọc hiểu: Văn bản học thuật chuyên sâu",
+    "summary": "Phát triển kỹ năng đọc hiểu các văn bản nghiên cứu phức tạp.",
+    "details": "<h3>1. Chiến lược đọc hiệu quả</h3><ul><li>Skimming và scanning nâng cao</li><li>Đọc theo chiều sâu (close reading)</li><li>Phân tích cấu trúc văn bản</li></ul><h3>2. Phân tích lập luận</h3><ul><li>Xác định luận điểm chính và phụ</li><li>Đánh giá tính thuyết phục của bằng chứng</li><li>Nhận diện thiên kiến và giả định</li></ul><h3>3. Ứng dụng thực tế</h3><p>Đọc và phân tích bài báo khoa học, nghiên cứu học thuật.</p>"
+  },
+  {
+    "id": 26,
+    "level": "B1",
+    "title": "Từ vựng chủ đề Sức khỏe & Y tế",
+    "summary": "Mở rộng vốn từ cho các tình huống liên quan đến sức khỏe.",
+    "details": "<h3>1. Từ vựng cơ bản</h3><ul><li><b>Triệu chứng:</b> headache, fever, cough, sore throat</li><li><b>Điều trị:</b> prescription, medication, surgery</li><li><b>Cơ sở y tế:</b> hospital, clinic, pharmacy</li></ul><h3>2. Cụm từ hữu ích</h3><ul><li>I have an appointment with Dr...</li><li>I'm feeling under the weather</li><li>I'm allergic to...</li><li>How often should I take this medicine?</li></ul><h3>3. Tình huống thực tế</h3><p>Luyện tập hội thoại tại phòng khám, hiệu thuốc và mô tả triệu chứng.</p>"
+  },
+  {
+    "id": 27,
+    "level": "B2",
+    "title": "Kỹ năng viết: Email chuyên nghiệp",
+    "summary": "Học cách viết email hiệu quả cho mục đích công việc và học thuật.",
+    "details": "<h3>1. Cấu trúc email chuẩn</h3><ul><li>Tiêu đề rõ ràng và ngắn gọn</li><li>Lời chào phù hợp ngữ cảnh</li><li>Nội dung mạch lạc, chia đoạn rõ ràng</li><li>Kết thúc lịch sự với call-to-action</li></ul><h3>2. Phong cách viết</h3><ul><li>Email trang trọng vs. bán trang trọng</li><li>Ngôn ngữ rõ ràng, tránh hiểu nhầm</li><li>Sử dụng bullet points khi cần</li></ul><h3>3. Các tình huống thường gặp</h3><p>Email xin việc, email phàn nàn, email đề xuất ý tưởng.</p>"
+  },
+  {
+    "id": 28,
+    "level": "C1",
+    "title": "Kỹ năng nói: Tranh biện & Thuyết phục",
+    "summary": "Phát triển kỹ năng tranh biện hiệu quả và thuyết phục người nghe.",
+    "details": "<h3>1. Cấu trúc bài tranh biện</h3><ul><li>Statement - Lập trường rõ ràng</li><li>Argument - Luận điểm logic</li><li>Evidence - Bằng chứng thuyết phục</li><li>Impact - Tác động và ý nghĩa</li></ul><h3>2. Kỹ thuật tranh biện</h3><ul><li>Phản biện có cấu trúc</li><li>Sử dụng rhetorical questions</li><li>Appeal to logic, emotion, và credibility</li></ul><h3>3. Thực hành tình huống</h3><p>Tranh biện về các vấn đề xã hội, chính trị, đạo đức.</p>"
+  },
+  {
+    "id": 29,
+    "level": "A2",
+    "title": "Ngữ pháp: Thì tương lai đơn & Gần",
+    "summary": "Phân biệt và sử dụng chính xác các thì tương lai trong tiếng Anh.",
+    "details": "<h3>1. Thì tương lai đơn (Will)</h3><ul><li>Dự đoán không có căn cứ</li><li>Quyết định đưa ra tại thời điểm nói</li><li>Lời hứa, đề nghị</li></ul><h3>2. Thì tương lai gần (Be going to)</h3><ul><li>Dự định có kế hoạch trước</li><li>Dự đoán dựa trên bằng chứng hiện tại</li></ul><h3>3. Bài tập phân biệt</h3><p>Lựa chọn thì phù hợp cho từng ngữ cảnh cụ thể.</p>"
+  },
+  {
+    "id": 30,
+    "level": "B1",
+    "title": "Luyện nghe: Tin tức & Bản tin",
+    "summary": "Làm quen với ngôn ngữ bản tin và cải thiện kỹ năng nghe hiểu.",
+    "details": "<h3>1. Đặc điểm ngôn ngữ bản tin</h3><ul><li>Tốc độ nói nhanh</li><li>Từ vựng chuyên ngành</li><li>Cấu trúc câu phức tạp</li></ul><h3>2. Chiến lược nghe hiệu quả</h3><ul><li>Nghe trước tiêu đề và tóm tắt</li><li>Tập trung vào thông tin 5W1H</li><li>Ghi chú từ khóa quan trọng</li></ul><h3>3. Chủ đề đa dạng</h3><p>Thời sự, thể thao, thời tiết, kinh tế, giải trí.</p>"
+  },
+  {
+    "id": 31,
+    "level": "C2",
+    "title": "Viết học thuật: Nghiên cứu khoa học",
+    "summary": "Thành thạo kỹ năng viết bài nghiên cứu học thuật chuyên sâu.",
+    "details": "<h3>1. Cấu trúc bài nghiên cứu</h3><ul><li>Abstract - Tóm tắt</li><li>Introduction - Giới thiệu</li><li>Literature Review - Tổng quan nghiên cứu</li><li>Methodology - Phương pháp nghiên cứu</li><li>Results - Kết quả</li><li>Discussion - Thảo luận</li><li>Conclusion - Kết luận</li></ul><h3>2. Ngôn ngữ học thuật</h3><ul><li>Sử dụng passive voice phù hợp</li><li>Ngôn ngữ khách quan, tránh cảm tính</li><li>Trích dẫn tài liệu tham khảo</li></ul><h3>3. Đạo đức học thuật</h3><p>Tránh đạo văn và tôn trọng bản quyền.</p>"
+  },
+  {
+    "id": 32,
+    "level": "B2",
+    "title": "Từ vựng chủ đề Công nghệ & Kỹ thuật số",
+    "summary": "Cập nhật vốn từ vựng về công nghệ hiện đại và kỹ thuật số.",
+    "details": "<h3>1. Thuật ngữ công nghệ</h3><ul><li><b>Phần cứng:</b> motherboard, processor, RAM</li><li><b>Phần mềm:</b> application, operating system, interface</li><li><b>Internet:</b> bandwidth, streaming, cloud computing</li></ul><h3>2. Xu hướng công nghệ</h3><ul><li>Artificial Intelligence (AI)</li><li>Internet of Things (IoT)</li><li>Blockchain và cryptocurrency</li><li>Virtual Reality (VR) và Augmented Reality (AR)</li></ul><h3>3. Ứng dụng thực tế</h3><p>Thảo luận về tác động của công nghệ đến cuộc sống và công việc.</p>"
+  },
+  {
+    "id": 33,
+    "level": "C1",
+    "title": "Ngữ pháp: Cụm phân từ & Rút gọn mệnh đề",
+    "summary": "Làm chủ các cấu trúc câu phức tạp với cụm phân từ.",
+    "details": "<h3>1. Phân loại cụm phân từ</h3><ul><li>Present Participle Phrases (V-ing)</li><li>Past Participle Phrases (V3)</li><li>Perfect Participle Phrases (Having V3)</li></ul><h3>2. Ứng dụng trong văn viết</h3><ul><li>Rút gọn mệnh đề quan hệ</li><li>Thay thế mệnh đề trạng ngữ</li><li>Tạo câu phức tạp nhưng ngắn gọn</li></ul><h3>3. Lỗi thường gặp và cách tránh</h3><p>Dangling modifiers và cách sửa lỗi.</p>"
+  },
+  {
+    "id": 34,
+    "level": "A2",
+    "title": "Kỹ năng nói: Mô tả người & Đồ vật",
+    "summary": "Phát triển khả năng mô tả chi tiết bằng tiếng Anh.",
+    "details": "<h3>1. Mô tả ngoại hình</h3><ul><li>Chiều cao, cân nặng, kiểu tóc</li><li>Đặc điểm khuôn mặt</li><li>Trang phục và phong cách</li></ul><h3>2. Mô tả tính cách</h3><ul><li>Tính từ chỉ tính cách tích cực/tiêu cực</li><li>Sở thích và thói quen</li><li>Tài năng và khả năng đặc biệt</li></ul><h3>3. Mô tả đồ vật</h3><ul><li>Kích thước, hình dạng, màu sắc</li><li>Chất liệu và công dụng</li><li>Vị trí và sự sắp xếp</li></ul>"
+  },
+  {
+    "id": 35,
+    "level": "B1",
+    "title": "Đọc hiểu: Truyện ngắn & Văn học đơn giản",
+    "summary": "Phát triển kỹ năng đọc hiểu qua các tác phẩm văn học ngắn.",
+    "details": "<h3>1. Kỹ thuật đọc hiểu</h3><ul><li>Xác định nhân vật và bối cảnh</li><li>Theo dõi cốt truyện</li><li>Hiểu thông điệp và ý nghĩa</li></ul><h3>2. Phân tích đơn giản</h3><ul><li>Đặc điểm nhân vật</li><li>Xung đột và giải quyết</li><li>Chủ đề và bài học</li></ul><h3>3. Thực hành đa dạng</h3><p>Đọc truyện ngắn, truyện cười, truyện ngụ ngôn bằng tiếng Anh.</p>"
+  },
+  {
+    "id": 36,
+    "level": "C2",
+    "title": "Từ vựng Triết học & Khoa học xã hội",
+    "summary": "Làm chủ thuật ngữ chuyên sâu về triết học và khoa học xã hội.",
+    "details": "<h3>1. Thuật ngữ triết học</h3><ul><li><b>Trường phái:</b> existentialism, utilitarianism, stoicism</li><li><b>Khái niệm:</b> epistemology, metaphysics, ethics</li><li><b>Triết gia:</b> Plato, Aristotle, Kant, Nietzsche</li></ul><h3>2. Thuật ngữ khoa học xã hội</h3><ul><li>Sociology: social stratification, cultural norms</li><li>Psychology: cognitive dissonance, behaviorism</li><li>Political Science: democracy, authoritarianism</li></ul><h3>3. Ứng dụng trong thảo luận</h3><p>Thảo luận về các vấn đề triết học và xã hội phức tạp.</p>"
+  },
+  {
+    "id": 37,
+    "level": "B2",
+    "title": "Kỹ năng nghe: Podcast & Phỏng vấn",
+    "summary": "Nâng cao kỹ năng nghe hiểu qua podcast và các cuộc phỏng vấn.",
+    "details": "<h3>1. Đặc điểm ngôn ngữ podcast</h3><ul><li>Ngôn ngữ tự nhiên, không chuẩn bị trước</li><li>Chêm tiếng lóng và thành ngữ</li><li>Giọng nói và cách phát âm đa dạng</li></ul><h3>2. Chiến lược nghe hiệu quả</h3><ul><li>Nghe nhiều lần với mục đích khác nhau</li><li>Tập trung vào ý chính và thông tin chi tiết</li><li>Ghi chú và tóm tắt nội dung</li></ul><h3>3. Chủ đề đa dạng</h3><p>Podcast giáo dục, giải trí, tin tức, phỏng vấn chuyên gia.</p>"
+  },
+  {
+    "id": 38,
+    "level": "C1",
+    "title": "Viết sáng tạo: Truyện ngắn & Thơ",
+    "summary": "Khám phá khả năng viết sáng tạo bằng tiếng Anh.",
+    "details": "<h3>1. Kỹ thuật viết truyện ngắn</h3><ul><li>Xây dựng nhân vật và bối cảnh</li><li>Phát triển cốt truyện và xung đột</li><li>Sử dụng đối thoại tự nhiên</li></ul><h3>2. Kỹ thuật viết thơ</h3><ul><li>Vần điệu và nhịp điệu</li><li>Hình ảnh và ẩn dụ</li><li>Cấu trúc và hình thức thơ</li></ul><h3>3. Phát triển phong cách cá nhân</h3><p>Tìm và phát triển giọng văn riêng trong sáng tác.</p>"
+  },
+  {
+    "id": 39,
+    "level": "A2",
+    "title": "Ngữ pháp: Đại từ sở hữu & Tính từ sở hữu",
+    "summary": "Phân biệt và sử dụng chính xác đại từ sở hữu và tính từ sở hữu.",
+    "details": "<h3>1. Tính từ sở hữu</h3><ul><li>My, your, his, her, its, our, their</li><li>Đứng trước danh từ để bổ nghĩa</li><li>Ví dụ: This is my book</li></ul><h3>2. Đại từ sở hữu</h3><ul><li>Mine, yours, his, hers, its, ours, theirs</li><li>Thay thế cho danh từ đã được đề cập</li><li>Ví dụ: This book is mine</li></ul><h3>3. Bài tập ứng dụng</h3><p>Điền vào chỗ trống, viết lại câu, hoàn thành hội thoại.</p>"
+  },
+  {
+    "id": 40,
+    "level": "B1",
+    "title": "Từ vựng chủ đề Giáo dục & Học tập",
+    "summary": "Mở rộng vốn từ vựng về môi trường giáo dục và học tập.",
+    "details": "<h3>1. Từ vựng cơ bản</h3><ul><li><b>Cơ sở giáo dục:</b> kindergarten, primary school, university</li><li><b>Người tham gia:</b> student, teacher, professor, principal</li><li><b>Hoạt động:</b> study, research, graduate, attend class</li></ul><h3>2. Thuật ngữ học thuật</h3><ul><li>Curriculum, syllabus, assignment, thesis</li><li>Bachelor's degree, Master's degree, PhD</li><li>Scholarship, tuition fees, campus</li></ul><h3>3. Tình huống thực tế</h3><p>Thảo luận về hệ thống giáo dục, kinh nghiệm học tập.</p>"
+  },
+  {
+    "id": 41,
+    "level": "C2",
+    "title": "Phân tích ngôn ngữ học ứng dụng",
+    "summary": "Khám phá sâu về ngôn ngữ học và ứng dụng trong giảng dạy.",
+    "details": "<h3>1. Ngôn ngữ học cơ bản</h3><ul><li>Phonetics và Phonology</li><li>Morphology và Syntax</li><li>Semantics và Pragmatics</li></ul><h3>2. Ứng dụng trong giảng dạy</h3><ul><li>Phương pháp dạy ngữ pháp</li><li>Phát triển kỹ năng giao tiếp</li><li>Đánh giá năng lực ngôn ngữ</li></ul><h3>3. Nghiên cứu ngôn ngữ học</h3><p>Đọc và phân tích các bài nghiên cứu về ngôn ngữ học ứng dụng.</p>"
+  },
+  {
+    "id": 42,
+    "level": "B2",
+    "title": "Kỹ năng nói: Thảo luận nhóm & Làm việc nhóm",
+    "summary": "Phát triển kỹ năng giao tiếp hiệu quả trong môi trường nhóm.",
+    "details": "<h3>1. Kỹ thuật thảo luận nhóm</h3><ul><li>Đưa ra ý kiến và đề xuất</li><li>Đồng ý và không đồng ý lịch sự</li><li>Đặt câu hỏi và làm rõ ý kiến</li></ul><h3>2. Ngôn ngữ cho làm việc nhóm</h3><ul><li>Phân công nhiệm vụ</li><li>Đưa ra phản hồi xây dựng</li><li>Giải quyết xung đột</li></ul><h3>3. Thực hành tình huống</h3><p>Thảo luận về dự án, giải quyết vấn đề, ra quyết định nhóm.</p>"
+  },
+  {
+    "id": 43,
+    "level": "C1",
+    "title": "Từ vựng chủ đề Luật pháp & Chính trị",
+    "summary": "Nắm vững thuật ngữ về hệ thống luật pháp và chính trị.",
+    "details": "<h3>1. Thuật ngữ luật pháp</h3><ul><li><b>Hệ thống tòa án:</b> court, judge, jury, lawyer</li><li><b>Loại tội phạm:</b> felony, misdemeanor, civil case</li><li><b>Quy trình:</b> trial, verdict, appeal, sentence</li></ul><h3>2. Thuật ngữ chính trị</h3><ul><li><b>Hệ thống chính trị:</b> democracy, monarchy, republic</li><li><b>Tổ chức:</b> government, parliament, congress</li><li><b>Chính sách:</b> foreign policy, domestic policy</li></ul><h3>3. Ứng dụng thực tế</h3><p>Đọc hiểu văn bản pháp lý, thảo luận về vấn đề chính trị.</p>"
+  },
+  {
+    "id": 44,
+    "level": "A2",
+    "title": "Ngữ pháp: So sánh hơn & So sánh nhất",
+    "summary": "Học cách so sánh người, vật và sự việc trong tiếng Anh.",
+    "details": "<h3>1. So sánh hơn</h3><ul><li>Tính từ ngắn: adjective + er + than</li><li>Tính từ dài: more + adjective + than</li><li>Bất quy tắc: good → better, bad → worse</li></ul><h3>2. So sánh nhất</h3><ul><li>Tính từ ngắn: the + adjective + est</li><li>Tính từ dài: the most + adjective</li><li>Bất quy tắc: good → the best, bad → the worst</li></ul><h3>3. Bài tập thực hành</h3><p>So sánh đồ vật, địa điểm, con người trong các tình huống cụ thể.</p>"
+  },
+  {
+    "id": 45,
+    "level": "B1",
+    "title": "Luyện nghe: Bài hát & Lời bài hát",
+    "summary": "Cải thiện kỹ năng nghe hiểu qua âm nhạc và lời bài hát.",
+    "details": "<h3>1. Phân tích lời bài hát</h3><ul><li>Xác định chủ đề và thông điệp</li><li>Hiểu ẩn dụ và biện pháp tu từ</li><li>Phân tích cấu trúc và vần điệu</li></ul><h3>2. Kỹ thuật nghe hiệu quả</h3><ul><li>Nghe và điền vào chỗ trống</li><li>Sắp xếp lời bài hát theo thứ tự</li><li>Dịch và giải thích ý nghĩa</li></ul><h3>3. Thể loại đa dạng</h3><p>Pop, rock, ballad, rap, country music với các cấp độ khó khác nhau.</p>"
+  },
+  {
+    "id": 46,
+    "level": "C2",
+    "title": "Dịch thuật chuyên nghiệp Anh - Việt",
+    "summary": "Phát triển kỹ năng dịch thuật chuyên nghiệp giữa tiếng Anh và tiếng Việt.",
+    "details": "<h3>1. Nguyên tắc dịch thuật</h3><ul><li>Tính chính xác và trung thành với nguyên bản</li><li>Tính tự nhiên và phù hợp văn hóa</li><li>Bảo toàn phong cách và giọng điệu</li></ul><h3>2. Kỹ thuật dịch thuật</h3><ul><li>Dịch word-for-word vs. sense-for-sense</li><li>Xử lý thành ngữ và cụm từ cố định</li><li>Giải quyết vấn đề khác biệt văn hóa</li></ul><h3>3. Thực hành đa dạng</h3><p>Dịch văn bản hành chính, văn học, kỹ thuật, marketing.</p>"
+  },
+  {
+    "id": 47,
+    "level": "B2",
+    "title": "Từ vựng chủ đề Nghệ thuật & Văn hóa",
+    "summary": "Mở rộng vốn từ về các lĩnh vực nghệ thuật và văn hóa.",
+    "details": "<h3>1. Loại hình nghệ thuật</h3><ul><li><b>Mỹ thuật:</b> painting, sculpture, photography</li><li><b>Biểu diễn:</b> music, dance, theater, opera</li><li><b>Văn học:</b> poetry, novel, short story</li></ul><h3>2. Thuật ngữ nghệ thuật</h3><ul><li>Composition, perspective, texture</li><li>Melody, rhythm, harmony</li><li>Plot, character, setting</li></ul><h3>3. Thảo luận và đánh giá</h3><p>Thảo luận về tác phẩm nghệ thuật, viết bài phê bình nghệ thuật.</p>"
+  },
+  {
+    "id": 48,
+    "level": "C1",
+    "title": "Ngữ pháp: Câu ghép & Câu phức tổng hợp",
+    "summary": "Thành thạo việc kết hợp các loại câu để tạo văn bản phong phú.",
+    "details": "<h3>1. Phân loại câu</h3><ul><li>Câu đơn (Simple sentences)</li><li>Câu ghép (Compound sentences)</li><li>Câu phức (Complex sentences)</li><li>Câu phức tổng hợp (Compound-complex sentences)</li></ul><h3>2. Kỹ thuật kết hợp câu</h3><ul><li>Sử dụng liên từ kết hợp (FANBOYS)</li><li>Sử dụng liên từ phụ thuộc</li><li>Sử dụng dấu câu phù hợp</li></ul><h3>3. Ứng dụng trong văn viết</h3><p>Tạo văn bản có nhịp điệu và cấu trúc đa dạng.</p>"
+  },
+  {
+    "id": 49,
+    "level": "A2",
+    "title": "Kỹ năng viết: Viết nhật ký & Kể chuyện",
+    "summary": "Phát triển kỹ năng viết cơ bản qua viết nhật ký và kể chuyện.",
+    "details": "<h3>1. Viết nhật ký</h3><ul><li>Miêu tả hoạt động hàng ngày</li><li>Chia sẻ cảm xúc và suy nghĩ</li><li>Sử dụng thì quá khứ đơn</li></ul><h3>2. Kể chuyện đơn giản</h3><ul><li>Giới thiệu nhân vật và bối cảnh</li><li>Kể lại sự kiện theo trình tự thời gian</li><li>Sử dụng từ nối: first, then, after that, finally</li></ul><h3>3. Thực hành viết</h3><p>Viết về kỷ niệm đáng nhớ, chuyến đi, sự kiện đặc biệt.</p>"
+  },
+  {
+    "id": 50,
+    "level": "B1",
+    "title": "Luyện phát âm: Trọng âm & Ngữ điệu",
+    "summary": "Cải thiện phát âm với trọng âm từ và ngữ điệu câu.",
+    "details": "<h3>1. Trọng âm từ</h3><ul><li>Quy tắc trọng âm cơ bản</li><li>Từ có 2 âm tiết: danh từ vs. động từ</li><li>Từ có nhiều âm tiết</li></ul><h3>2. Ngữ điệu câu</h3><ul><li>Ngữ điệu lên cho câu hỏi Yes/No</li><li>Ngữ điệu xuống cho câu hỏi Wh- và câu trần thuật</li><li>Ngữ điệu thể hiện cảm xúc</li></ul><h3>3. Thực hành với câu dài</h3><p>Đọc câu dài với trọng âm và ngữ điệu chính xác.</p>"
+  }
 ]

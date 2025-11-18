@@ -4,28 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>English Roadmap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div class="progress-container">
         <div class="progress-bar" id="myBar"></div>
     </div>
-    <h1>🗺️ English Roadmap</h1>
 
-    <div class="timeline" id="roadmap-app">
+    <h1><i class="fas fa-map-signs"></i> English Learning Roadmap</h1>
+
+    <div class="stats-container">
+        <div class="stat-card">
+            <div class="stat-value" id="totalLessons">0</div>
+            <div class="stat-label">Tổng số bài học</div>
         </div>
+        <div class="stat-card">
+            <div class="stat-value" id="completedLessons">0</div>
+            <div class="stat-label">Đã hoàn thành</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value" id="progressPercent">0%</div>
+            <div class="stat-label">Tiến độ tổng thể</div>
+        </div>
+    </div>
+
+    <div class="filter-bar">
+        <label><i class="fas fa-filter"></i> Lọc theo: </label>
+        <select id="filterLevel" onchange="renderRoadmap()">
+            <option value="all">Tất cả Level</option>
+        </select>
+
+        <select id="filterStatus" onchange="renderRoadmap()">
+            <option value="all">Tất cả trạng thái</option>
+            <option value="completed">Đã hoàn thành ✅</option>
+            <option value="incomplete">Chưa học ⏳</option>
+        </select>
+    </div>
+
+    <div class="roadmap-tree" id="roadmap-app">
+        <!-- Nội dung roadmap sẽ được render tại đây -->
+    </div>
 
     <div id="lessonModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
-            <h2 id="modal-title">Tiêu đề bài học</h2>
-            <span id="modal-level" class="level-tag">Level</span>
-            <p id="modal-desc" style="margin-top: 20px; line-height: 1.6;"></p>
+            <div class="modal-header">
+                <h2 id="modal-title">Tiêu đề bài học</h2>
+                <span id="modal-level" class="modal-level">Level</span>
+            </div>
             
-            <div id="modal-actions" style="text-align: right; border-top: 1px solid #eee; margin-top: 20px;">
-                </div>
+            <div class="modal-body" id="modal-desc">
+                <!-- Nội dung chi tiết bài học -->
+            </div>
+            
+            <div class="modal-footer" id="modal-actions">
+                <!-- Nút hành động -->
+            </div>
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
