@@ -1,0 +1,161 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8fafc;
+}
+
+#viewport {
+    width: 100%;
+    height: 100%;
+    cursor: grab;
+    position: relative;
+    background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+#viewport:active {
+    cursor: grabbing;
+}
+
+#world {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: 0 0;
+    display: flex;
+    align-items: flex-start;
+    padding: 100px;
+    gap: 120px; /* Tăng khoảng cách để dây dễ nhìn hơn */
+    pointer-events: none;
+}
+
+.semester-column {
+    pointer-events: auto;
+    width: 280px;
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 16px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(226, 232, 240, 0.8);
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+}
+
+.subject-card {
+    transition: all 0.2s ease;
+    border-left: 5px solid transparent;
+    user-select: none;
+    position: relative;
+    z-index: 20;
+    background: white;
+    margin-bottom: 12px;
+    border: 1px solid #f1f5f9;
+}
+
+.subject-card:hover {
+    transform: scale(1.05) translateY(-2px);
+    z-index: 50;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* --- MÀU SẮC THEO LOẠI MÔN --- */
+/* ĐC: Đại cương */
+.type-DC { border-left-color: #64748b; background: #f8fafc; }
+.badge-DC { background-color: #f1f5f9; color: #475569; border: 1px solid #e2e8f0; }
+
+/* CSN: Cơ sở ngành */
+.type-CSN { border-left-color: #3b82f6; background: #eff6ff; }
+.badge-CSN { background-color: #dbeafe; color: #1e40af; border: 1px solid #bfdbfe; }
+
+/* CN: Chuyên ngành */
+.type-CN { border-left-color: #8b5cf6; background: #f5f3ff; }
+.badge-CN { background-color: #ede9fe; color: #5b21b6; border: 1px solid #ddd6fe; }
+
+/* CNTC: Chuyên ngành tự chọn */
+.type-CNTC { border-left-color: #14b8a6; background: #f0fdfa; }
+.badge-CNTC { background-color: #ccfbf1; color: #0f766e; border: 1px solid #99f6e4; }
+
+/* ĐA: Đồ án/Khóa luận */
+.type-DA { border-left-color: #ef4444; background: #fef2f2; }
+.badge-DA { background-color: #fee2e2; color: #991b1b; border: 1px solid #fecaca; }
+
+.highlight-target {
+    box-shadow: 0 0 0 3px #ef4444; /* Đỏ highlight */
+    transform: scale(1.05);
+}
+.highlight-source {
+    box-shadow: 0 0 0 3px #3b82f6; /* Xanh highlight */
+    transform: scale(1.05);
+}
+
+/* SVG Layer */
+#connections-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+    overflow: visible;
+}
+
+/* Line Styles */
+.connection-line {
+    fill: none;
+    stroke-width: 1.5px;
+    transition: all 0.3s ease;
+    opacity: 0.8; /* Luôn hiển thị rõ */
+}
+
+.connection-line:hover, .connection-line.active {
+    opacity: 1;
+    stroke-width: 3px;
+    filter: drop-shadow(0 0 2px rgba(0,0,0,0.2));
+    z-index: 100;
+}
+
+/* Control Panel */
+#controls {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    gap: 12px;
+    z-index: 100;
+}
+.control-btn {
+    width: 44px;
+    height: 44px;
+    background: white;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s;
+    color: #475569;
+    font-size: 1.1rem;
+}
+.control-btn:hover { background: #f1f5f9; transform: translateY(-2px); }
+
+#legend {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    max-width: 280px;
+    border: 1px solid rgba(0,0,0,0.05);
+    backdrop-filter: blur(4px);
+}

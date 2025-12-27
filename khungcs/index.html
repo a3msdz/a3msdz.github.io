@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lộ Trình Học Tập 2D - UIT</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="legend">
+        <h1 class="text-xl font-bold mb-1 text-slate-800 tracking-tight">Lộ Trình UIT</h1>
+        <p class="text-xs text-slate-500 mb-4">Khoa học Máy tính / CNTT</p>
+        
+        <div class="space-y-2.5 text-sm font-medium text-slate-700">
+            <div class="flex items-center"><span class="w-3 h-3 bg-slate-500 rounded-full mr-3 shadow-sm"></span>Đại cương (ĐC)</div>
+            <div class="flex items-center"><span class="w-3 h-3 bg-blue-500 rounded-full mr-3 shadow-sm"></span>Cơ sở ngành (CSN)</div>
+            <div class="flex items-center"><span class="w-3 h-3 bg-purple-500 rounded-full mr-3 shadow-sm"></span>Chuyên ngành (CN)</div>
+            <div class="flex items-center"><span class="w-3 h-3 bg-teal-500 rounded-full mr-3 shadow-sm"></span>Tự chọn (CNTC)</div>
+            <div class="flex items-center"><span class="w-3 h-3 bg-red-500 rounded-full mr-3 shadow-sm"></span>Đồ án/Khóa luận (ĐA)</div>
+        </div>
+
+        <div class="mt-4 pt-4 border-t border-slate-100 flex justify-between items-center">
+            <span class="text-xs text-slate-400 font-semibold uppercase">Tổng tín chỉ</span>
+            <span id="total-credits" class="text-lg font-bold text-blue-600">0</span>
+        </div>
+    </div>
+
+    <div id="controls">
+        <button class="control-btn" onclick="zoomIn()" title="Phóng to"><i class="fas fa-plus"></i></button>
+        <button class="control-btn" onclick="zoomOut()" title="Thu nhỏ"><i class="fas fa-minus"></i></button>
+        <button class="control-btn" onclick="resetView()" title="Đặt lại"><i class="fas fa-compress-arrows-alt"></i></button>
+    </div>
+
+    <div id="viewport">
+        <div id="world">
+            <svg id="connections-layer">
+                <defs>
+                    <!-- Markers cho từng loại màu -->
+                    <marker id="arrow-DC" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+                        <path d="M0,0 L0,6 L9,3 z" fill="#64748b" />
+                    </marker>
+                    <marker id="arrow-CSN" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+                        <path d="M0,0 L0,6 L9,3 z" fill="#3b82f6" />
+                    </marker>
+                    <marker id="arrow-CN" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+                        <path d="M0,0 L0,6 L9,3 z" fill="#8b5cf6" />
+                    </marker>
+                    <marker id="arrow-CNTC" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+                        <path d="M0,0 L0,6 L9,3 z" fill="#14b8a6" />
+                    </marker>
+                    <marker id="arrow-DA" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+                        <path d="M0,0 L0,6 L9,3 z" fill="#ef4444" />
+                    </marker>
+                </defs>
+            </svg>
+            <!-- Nội dung sẽ được render bằng JS -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
