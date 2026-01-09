@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minh Sang | AI Researcher Profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="selection:bg-blue-500/30">
+
+    <!-- Background Elements -->
+    <div class="fixed top-0 left-0 w-full h-full overflow-hidden -z-10">
+        <div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-blue-600/20 rounded-full blur-[120px]"></div>
+        <div class="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-purple-600/20 rounded-full blur-[120px]"></div>
+    </div>
+
+    <div class="max-w-4xl mx-auto px-6 py-12">
+        <!-- Header / Hero Section -->
+        <header class="text-center mb-16">
+            <div class="relative inline-block mb-6 group">
+                <div class="w-32 h-32 rounded-3xl bg-gradient-to-tr from-blue-500 to-purple-600 p-1 transform rotate-6 group-hover:rotate-0 transition-transform duration-300">
+                    <div class="w-full h-full rounded-2xl bg-slate-900 flex items-center justify-center overflow-hidden">
+                        <!-- Bạn có thể thay biểu tượng này bằng ảnh thật -->
+                        <i class="fa-solid fa-microchip text-5xl text-blue-400"></i>
+                    </div>
+                </div>
+                <div class="absolute -bottom-2 -right-2 bg-green-500 w-6 h-6 rounded-full border-4 border-slate-900 shadow-lg"></div>
+            </div>
+
+            <h1 class="text-5xl font-bold mb-4 tracking-tight">Minh Sang</h1>
+            <p class="code-font text-blue-400 font-medium mb-6 uppercase tracking-widest italic">
+                &lt;Future AI Researcher /&gt;
+            </p>
+            <p class="text-slate-400 max-w-lg mx-auto text-lg">
+                Sinh viên tại <span class="text-slate-200 font-semibold">UIT</span>. 
+                Đam mê xây dựng các hệ thống thông minh và khám phá tương lai của nhân loại.
+            </p>
+        </header>
+
+        <!-- Main Navigation Tabs -->
+        <nav class="flex p-1 glass rounded-2xl mb-10 sticky top-6 z-50">
+            <button onclick="switchTab('profile')" class="tab-btn flex-1 flex items-center justify-center gap-2 py-3 rounded-xl transition-all duration-300 active bg-blue-600 text-white" id="btn-profile">
+                <i class="fa-solid fa-user-astronaut"></i> <span class="hidden sm:inline">Hồ Sơ</span>
+            </button>
+            <button onclick="switchTab('study')" class="tab-btn flex-1 flex items-center justify-center gap-2 py-3 rounded-xl transition-all duration-300 text-slate-400 hover:text-slate-200" id="btn-study">
+                <i class="fa-solid fa-graduation-cap"></i> <span class="hidden sm:inline">Lộ Trình</span>
+            </button>
+            <button onclick="switchTab('research')" class="tab-btn flex-1 flex items-center justify-center gap-2 py-3 rounded-xl transition-all duration-300 text-slate-400 hover:text-slate-200" id="btn-research">
+                <i class="fa-solid fa-atom"></i> <span class="hidden sm:inline">Nghiên Cứu</span>
+            </button>
+        </nav>
+
+        <!-- Profile Tab -->
+        <section id="profile" class="tab-content active space-y-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Info Card -->
+                <div class="glass p-8 rounded-3xl border border-white/5">
+                    <h3 class="text-xl font-bold mb-6 flex items-center gap-3">
+                        <i class="fa-solid fa-address-card text-blue-400"></i> Thông Tin Cơ Bản
+                    </h3>
+                    <ul class="space-y-4">
+                        <li class="flex justify-between items-center border-b border-white/5 pb-2">
+                            <span class="text-slate-500">Ngày sinh</span>
+                            <span class="font-medium">22/08/2007</span>
+                        </li>
+                        <li class="flex justify-between items-center border-b border-white/5 pb-2">
+                            <span class="text-slate-500">Quê quán</span>
+                            <span class="font-medium text-right">Lâm Đồng (Bình Thuận cũ)</span>
+                        </li>
+                        <li class="flex justify-between items-center border-b border-white/5 pb-2">
+                            <span class="text-slate-500">Trạng thái</span>
+                            <span class="text-green-400 flex items-center gap-2">
+                                <span class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span> Sẵn sàng học hỏi
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Interests Card -->
+                <div class="glass p-8 rounded-3xl border border-white/5">
+                    <h3 class="text-xl font-bold mb-6 flex items-center gap-3">
+                        <i class="fa-solid fa-heart text-purple-400"></i> Sở Thích & Giải Trí
+                    </h3>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="bg-slate-700/50 px-4 py-2 rounded-full text-sm border border-white/5">🎮 Chơi Game (RPG, FPS)</span>
+                        <span class="bg-slate-700/50 px-4 py-2 rounded-full text-sm border border-white/5">📱 Mạng xã hội</span>
+                        <span class="bg-slate-700/50 px-4 py-2 rounded-full text-sm border border-white/5">🎥 Xem phim Sci-fi</span>
+                        <span class="bg-slate-700/50 px-4 py-2 rounded-full text-sm border border-white/5">🎧 Nghe nhạc Lofi</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill Tags (Sample Data) -->
+            <div class="glass p-8 rounded-3xl border border-white/5">
+                <h3 class="text-xl font-bold mb-6">Kỹ Năng Đang Phát Triển</h3>
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                    <div class="text-center p-4 rounded-2xl bg-slate-800/50 border border-white/5">
+                        <i class="fa-brands fa-python text-3xl text-yellow-500 mb-2"></i>
+                        <p class="text-xs font-bold">Python</p>
+                    </div>
+                    <div class="text-center p-4 rounded-2xl bg-slate-800/50 border border-white/5">
+                        <i class="fa-solid fa-brain text-3xl text-pink-500 mb-2"></i>
+                        <p class="text-xs font-bold">ML Basics</p>
+                    </div>
+                    <div class="text-center p-4 rounded-2xl bg-slate-800/50 border border-white/5">
+                        <i class="fa-brands fa-github text-3xl text-white mb-2"></i>
+                        <p class="text-xs font-bold">Git</p>
+                    </div>
+                    <div class="text-center p-4 rounded-2xl bg-slate-800/50 border border-white/5">
+                        <i class="fa-solid fa-code text-3xl text-blue-400 mb-2"></i>
+                        <p class="text-xs font-bold">C++</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Study Tab -->
+        <section id="study" class="tab-content space-y-8">
+            <div class="glass p-8 rounded-3xl border border-white/5 text-center">
+                <div class="mb-6">
+                    <i class="fa-solid fa-map-location-dot text-5xl text-blue-500"></i>
+                </div>
+                <h2 class="text-2xl font-bold mb-4">Kế Hoạch Học Tập UIT</h2>
+                <p class="text-slate-400 mb-8 max-w-md mx-auto">
+                    Mình đã chuẩn bị một lộ trình chi tiết để học tại UIT và định hướng nghiên cứu chuyên sâu.
+                </p>
+                <a href="https://a3msdz.github.io/khungcs/" target="_blank" class="glow-button inline-flex items-center gap-3 bg-blue-600 hover:bg-blue-500 text-white px-10 py-4 rounded-2xl font-bold transition-all transform hover:scale-105">
+                    Xem Khung Chương Trình <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+
+            <!-- Timeline Sample -->
+            <!-- <div class="space-y-4">
+                <h3 class="text-xl font-bold px-4">Các Cột Mốc Quan Trọng</h3>
+                <div class="relative pl-8 border-l-2 border-blue-500/30 space-y-8 ml-4">
+                    <div class="relative">
+                        <div class="absolute -left-[41px] top-1 w-4 h-4 rounded-full bg-blue-500 shadow-[0_0_10px_rgba(59,130,246,0.8)]"></div>
+                        <h4 class="font-bold text-lg">Năm 1: Xây dựng nền tảng</h4>
+                        <p class="text-slate-400 text-sm">Học tốt Toán rời rạc, Giải tích, và nắm vững C++ tại UIT.</p>
+                    </div>
+                    <div class="relative">
+                        <div class="absolute -left-[41px] top-1 w-4 h-4 rounded-full bg-slate-700"></div>
+                        <h4 class="font-bold text-lg text-slate-400">Năm 2: Khám phá chuyên sâu</h4>
+                        <p class="text-slate-500 text-sm">Bắt đầu tiếp cận Cấu trúc dữ liệu & Giải thuật và Python cho AI.</p>
+                    </div>
+                    <div class="relative">
+                        <div class="absolute -left-[41px] top-1 w-4 h-4 rounded-full bg-slate-700"></div>
+                        <h4 class="font-bold text-lg text-slate-400">Năm 3: Khám phá chuyên sâu</h4>
+                        <p class="text-slate-500 text-sm">Bắt đầu tiếp cận Cấu trúc dữ liệu & Giải thuật và Python cho AI.</p>
+                    </div>
+                    <div class="relative">
+                        <div class="absolute -left-[41px] top-1 w-4 h-4 rounded-full bg-slate-700"></div>
+                        <h4 class="font-bold text-lg text-slate-400">Năm 4: Khám phá chuyên sâu</h4>
+                        <p class="text-slate-500 text-sm">Bắt đầu tiếp cận Cấu trúc dữ liệu & Giải thuật và Python cho AI.</p>
+                    </div>
+                </div>
+            </div> -->
+        </section>
+
+        <!-- Research Tab (Sample Data) -->
+        <section id="research" class="tab-content space-y-6">
+            <div class="glass p-8 rounded-3xl border border-white/5">
+                <h3 class="text-2xl font-bold mb-6 gradient-text">Định Hướng Nghiên Cứu</h3>
+                <div class="space-y-6">
+                    <div class="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-blue-500/50 transition-colors">
+                        <div class="flex items-start justify-between mb-4">
+                            <h4 class="text-xl font-semibold text-blue-300">Hiện tại chưa có gì cả</h4>
+                            <span class="text-xs bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full">Đang tìm hiểu</span>
+                        </div>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quote -->
+            <div class="text-center italic text-slate-500 py-10 px-6">
+                <p class="text-lg">"The best way to predict the future is to invent it."</p>
+                <p class="text-sm mt-2">— Alan Kay</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-20 pt-10 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6 opacity-60 hover:opacity-100 transition-opacity">
+            <div class="text-sm">
+                &copy; 2026 - <span class="font-bold">Minh Sang</span>
+            </div>
+            <div class="flex gap-6 text-xl">
+                <a href="https://github.com/a3msdz" class="hover:text-blue-400 transition-colors"><i class="fa-brands fa-github"></i></a>
+                <a href="https://facebook.com/DangMinhSangDN" class="hover:text-blue-500 transition-colors"><i class="fa-brands fa-facebook"></i></a>
+                <a href="mailto:dannypapq0@gmail.com" class="hover:text-red-400 transition-colors"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
