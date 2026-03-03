@@ -1,0 +1,12 @@
+[
+  {
+    "id": "exam1",
+    "title": "VSTEP Practice Test 1",
+    "file": "data/exam1.json"
+  },
+  {
+    "id": "exam2",
+    "title": "VSTEP Practice Test 2",
+    "file": "data/exam2.json"
+  }
+]

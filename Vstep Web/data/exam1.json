@@ -1,0 +1,62 @@
+{
+    "title": "VSTEP Practice Test 1",
+    "reading": {
+        "passage": "<h3>Part 1: The Future of Remote Work</h3><p>Modern technology has significantly changed the way we live and work. Over the past decade, the traditional office setup has been increasingly challenged by remote work models. This shift was rapidly accelerated by global events, but the underlying technological infrastructure—such as cloud computing, high-speed internet, and collaborative software—had been under development for years.</p><p>Advocates of remote work argue that it improves work-life balance and reduces commuting time, which in turn cuts down on greenhouse gas emissions. However, critics point out that remote work can lead to a sense of isolation and blur the boundaries between professional and personal life.</p>",
+        "questions": [
+            {
+                "id": "r_q1",
+                "question": "What is the main topic of the passage?",
+                "options": [
+                    "The history of cloud computing",
+                    "The shift towards remote work and its impacts",
+                    "How to commute efficiently",
+                    "The reduction of greenhouse gas emissions"
+                ],
+                "answer": 1,
+                "explanation": "The passage primarily discusses how modern technology has enabled remote work, its benefits, and its drawbacks."
+            },
+            {
+                "id": "r_q2",
+                "question": "According to critics, what is a disadvantage of remote work?",
+                "options": [
+                    "It increases commuting time.",
+                    "It requires specialized collaborative software.",
+                    "It can cause feelings of isolation and blur life boundaries.",
+                    "It negatively impacts global events."
+                ],
+                "answer": 2,
+                "explanation": "The second paragraph explicitly states: 'critics point out that remote work can lead to a sense of isolation and blur the boundaries between professional and personal life.'"
+            }
+        ]
+    },
+    "listening": {
+        "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+        "transcript": "<p><strong>Speaker 1:</strong> Good morning! I'm calling to inquire about the upcoming web development workshop.</p><p><strong>Speaker 2:</strong> Hello! Yes, the workshop is scheduled for next Saturday from 9 AM to 4 PM. We will cover HTML, CSS, and basic JavaScript.</p><p><strong>Speaker 1:</strong> That sounds perfect. Is there any prerequisite knowledge required?</p><p><strong>Speaker 2:</strong> Not at all. It is designed entirely for beginners.</p>",
+        "questions": [
+            {
+                "id": "l_q1",
+                "question": "When is the workshop scheduled?",
+                "options": [
+                    "Next Sunday",
+                    "Next Saturday",
+                    "Tomorrow morning",
+                    "Next Friday"
+                ],
+                "answer": 1,
+                "explanation": "Speaker 2 explicitly says: 'the workshop is scheduled for next Saturday'."
+            },
+            {
+                "id": "l_q2",
+                "question": "What level of experience is required for the workshop?",
+                "options": [
+                    "Advanced",
+                    "Intermediate",
+                    "Beginner",
+                    "Expert"
+                ],
+                "answer": 2,
+                "explanation": "Speaker 2 mentions: 'It is designed entirely for beginners.'"
+            }
+        ]
+    }
+}
