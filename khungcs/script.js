@@ -19,8 +19,6 @@ const curriculumData = [
             { code: "MA005", name: "Xác suất thống kê", lt: 3, th: 0, pre: ["MA006"], type: "ĐC" },
             { code: "PE231", name: "Giáo dục thể chất 1", lt: 0, th: 0, pre: [], type: "TC" },
             { code: "ENG01", name: "Anh văn 1", lt: 4, th: 0, pre: [], type: "ĐC" },
-            { code: "ENG02", name: "Anh văn 2", lt: 4, th: 0, pre: [], type: "ĐC" },
-            { code: "ENG03", name: "Anh văn 3", lt: 4, th: 0, pre: [], type: "ĐC" },
             { code: "ME001", name: "Giáo dục quốc phòng", lt: 0, th: 0, pre: [], type: "ĐC" },
         ]
     },
